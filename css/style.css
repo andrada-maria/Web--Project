@@ -157,7 +157,7 @@ article#main-col{
   }
 }
 @media(max-width:768px){
-header #branding,
+header .branding,
   header nav,
   heder nav li{
     float:none;
@@ -175,6 +175,11 @@ header #branding,
     .newsletter button{
     display:block;
       width:100%;
+    }
+    
+    .newsletter form input[type="email"]{
+      width:100%;
+      margin-bottom:5px;
     }
     
   }
