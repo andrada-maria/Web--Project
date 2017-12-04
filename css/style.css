@@ -156,7 +156,29 @@ article#main-col{
     transform: scale(1);
   }
 }
-
+@media(max-width:768px){
+header #branding,
+  header nav,
+  heder nav li{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  
+  header{
+  padding-bottom:20px;
+    
+    .showcase h1{
+      margin-top:40px;
+      
+    }
+    .newsletter button{
+    display:block;
+      width:100%;
+    }
+    
+  }
+}
 footer{
   padding: 20px;
   margin-top: 20px;
